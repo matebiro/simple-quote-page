@@ -1,3 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin-bottom: 50px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+}
+
 html,
 body {
   margin: 0;
@@ -23,11 +43,15 @@ body {
 
 .quote {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 2.5rem; 
+  font-size: 2rem; 
 }
 
 .author {
   font-family: 'Crimson Text', serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-style: italic;
+}
+
+.lang {
+  vertical-align: middle;
 }
